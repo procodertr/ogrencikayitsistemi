@@ -1,0 +1,163 @@
+Versiyon 3.1
+
+   --Sayfalar
+        //Eklenenler
+            +Mobile_Detect.php
+                -Mobil Cihaz Girişini Algılama
+
+
+        //Düzeltmeler
+           +ust.php(Öğrenci)
+                -Telefonlarda Sıkıntı Yaşandığı İçin Menüler Navbardan Topbara Alındı.
+                -Menüler Değişken Olarak Menu.php Dosyasına Aktarıldı
+           +randevular.php
+                -Mobil Cihazlara Uygun Olarak Tasarımı Değiştirildi.
+           +geziler.php
+                -Mobil Cihazlara Uygun Olarak Tasarımı Değiştirildi.
+           +kurslar.php
+                -Mobil Cihazlara Uygun Olarak Tasarımı Değiştirildi.
+
+   --Veritabanı
+        //Veritabanına Eklenenler
+
+
+
+Versiyon 3
+
+   --Sayfalar
+        //Eklenenler
+            +toplulukislemleri.php
+            +toplulukaracduzenle.php
+            +ayarlar.php
+            +toplulukdemirbas.php
+            +toplulukdemirbasduzenle.php
+            +toplulukhaklari.php
+            +toplulukmsg.php
+            +topluluk.php
+            +admin.php(Öğrenci Topluluğu)
+            +ykuyesi.php(Öğrenci Topluluğu)
+            +uye.php(Öğrenci Topluluğu)
+            +uyesiz.php(Öğrenci Topluluğu)
+            +toplulukbilgileriniguncelle.php
+
+
+        //Düzeltmeler
+           +ust.php
+             -Ayarlar Menüsünün Adresi Eklendi.
+           +ust.php(Öğrenci)
+             -Topluluk Menüsü Eklendi.
+           +kontrol.php
+             -Mükerrer Kayıtların Oluşması Önlendi.
+           +yurtkayit.php
+             -Özel Yetenek Kayıtlarının Açılması İçin Özel Kayıt Özelliği Eklendi.
+           +burssiralamalistesi.php
+             -Tekrarlanan Değişken Hatası Düzeltidi.
+
+   --Veritabanı
+        //Veritabanına Eklenenler
+            +toplulukarac
+            +aractipi
+            +ayarlar
+            +toplulukdemirbas
+            +birimlistesi
+            +toplulukhaklari
+            +topluluklarchat
+            +toplulukayrilma
+            +toplulukkatilma
+
+
+        //Mevcut Veritabanından Güncellenenler
+
+
+
+
+   --Bilinen Hatalar
+
+
+   --Numaralar Hakkında Bilgilendirme
+           +Araç İstek
+                *1 = İstek Yapılmış Onay Bekliyor // 2 = Onaylandı // 3 = Rededildi // 9 = Silindi
+
+
+
+
+
+Versiyon 2.5
+
+   --Sayfalar
+        //Eklenenler
+            +topluluklar.php
+            +toplulukekle.php
+            +toplulukduzenle.php
+            +mysqlogrenci.php
+            +mysqlogrenciid.php
+            +topluluklistesi.php
+            +toplulukuyeduzenle.php
+            +toplulukuyeekle.php
+            +yurtkayit.php
+            +yurtkayit.php ( Modül )
+            +yenikayityurt.php
+            +arasinifyurt.php
+
+
+        //Düzeltmeler
+            +kayitlistesiogrenciler.php
+                 -Öğrenci Ekle Jquery Eklendi Performans Arttırıldı.
+            +kurskayitlistesiogrenciler.php
+                 -Öğrenci Ekle Jquery Eklendi Performans Arttırıldı.
+            +yasaklilistesi.php
+                 -Öğrenci Ekle Jquery Eklendi Performans Arttırıldı.
+            +alt.php
+                -Jquery İçin Javascript Kodları Eklendi
+            +ust.php
+                -Jquery İçin Javascript ve CSS Kodları Eklendi
+                -Öğrenci Evi Kayıtları Eklendi
+            +superuser.php
+                -Topluluk Sekmesi Eklendi.
+
+
+   --Veritabanı
+        //Veritabanına Eklenenler
+
+            +topluluklar
+            +toplulukogrencilistesi
+            +toplulukgorevler
+            +belgedogrula
+
+
+        //Mevcut Veritabanından Güncellenenler
+
+
+
+
+   --Bilinen Hatalar
+            +Öğrenci Listesi Sayfası Yavaş Açılmakta Jquery Eklenerek Yakında Hızlandırılacak.
+
+
+
+
+Versiyon 2.0
+
+        //Veritabanına Eklenenler
+
+            +kursliste
+            +kursdonemler
+            +kurskayitlar
+            +kurskatilanogrenci
+            +kursiptalistegi
+            +bursyil
+            +burssiralama
+            +burshaklar
+            +burshakkikazananogrenci
+
+
+        //Mevcut Veritabanından Güncellenenler
+
+            +yoneticiler
+            +ogrenciler
+
+
+
+        //Yapılacaklar
+
+            +Burs Sıralamasına Göre Öğrenci Listeleme
