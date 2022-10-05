@@ -48,6 +48,7 @@ Versiyon 3.1
                 -Veritabanına Log Bilgisi Ekleme.
            +baglan.php
                 -Veritabanı Şifresi Local veya Public Duruma Göre Otomatik Değişmekte.
+           
 
    --Veritabanı
         //Veritabanına Eklenenler
