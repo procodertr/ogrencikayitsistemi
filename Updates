@@ -4,6 +4,17 @@ Versiyon 3.1
         //Eklenenler
             +Mobile_Detect.php
                 -Mobil Cihaz Girişini Algılama
+            +Menu.php
+                -Topbar Menüsü Değişkeni Olarak Eklendi.
+                -Burs Hakkı Olmayana Burs Menüsü Gözükmeyecek.
+            +ogrencihareketleri.php
+                -Öğrencilerin Sistem Üzerindeki Loglarını Listeler.
+            +cihazturu.php
+                -Giriş Yapan Cihaz Türü İstatistiğini Listeler.
+            +hataligirisler.php
+                -Hatalı Giriş Kayıtlarını Listeler.
+
+
 
 
         //Düzeltmeler
@@ -16,9 +27,37 @@ Versiyon 3.1
                 -Mobil Cihazlara Uygun Olarak Tasarımı Değiştirildi.
            +kurslar.php
                 -Mobil Cihazlara Uygun Olarak Tasarımı Değiştirildi.
+           +kayitlistesiogrenciler.php
+                -Her Kategoriye 1 Kayıt Kontenjanı Yapılması İçin Gerekli Düzenlenmeler. Onaylanan Öğrencilerin Kategori İdler Veritabanına Kayıt Edilmesi.
+           +onaylikayitlistesi.php
+                -Her Kategoriye 1 Kayıt Kontenjanı Yapılması İçin Gerekli Düzenlenmeler. Onaylanan Öğrencilerin Kategori İdler Veritabanına Kayıt Edilmesi.
+           +geziler.php
+                -Öğrencinin Aynı Kategorideki Geziye 1 Kere Katılmasını Sağlamak İçin Kontrol Algoritması Eklendi.
+           +kayityap.php
+                -Öğrencinin Aynı Kategorideki Geziye 1 Kere Katılmasını Sağlamak İçin Kontrol Algoritması Eklendi.
+           +index.html
+                -Login Formların Maksimum Uzunlukları Standartlara Göre Ayarlandı. T.C. No:11, Öğrenci No:8
+           +kontrol.php
+                -Mobil Cihaz İstatistiği Tutulması İçin Sql Kayıt Kodu Eklendi
+                -Hatalı Giriş İstatistiği Tutulması İçin Sql Kayıt Kodu Eklendi
+           +superuser.php
+                -Log bilgileri, Hatalı Girişler ve Cihaz Bilgileri Menüleri Eklendi
+           +iptalisteği.php
+                -Veritabanına Log Bilgisi Ekleme.
+           +topluluk.php
+                -Veritabanına Log Bilgisi Ekleme.
 
    --Veritabanı
         //Veritabanına Eklenenler
+           +istatistik_hataligiris
+                -Hatalı Girişlerin İstatistiğini Saklanması
+           +istatistik_mobilgiris
+                -Giriş Yapan Cihaz Türünün İstatistiğinin Saklanması
+
+        //Mevcut Veritabanından Güncellenenler
+           +katilanogrenciler
+                -Gezi Kategorilerinin Kayıtlara Eklenmesi
+
 
 
 
