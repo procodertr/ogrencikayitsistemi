@@ -1,3 +1,31 @@
+Versiyon 3.2
+
+   --Sayfalar
+        //Eklenenler
+           +topluluk.php
+                -Menü Değişkeni Olarak Eklendi. Topluluk Sistemi Yöneticisinin Göreceği Menüler Eklendi.
+           +sifremiunuttum.html
+                -Yönetici Paneli Şifresi Unutulması Durumunda SMS Gönderir.
+           +sifregonderildi.php
+                -Şifre Unutulması Durumnda Veritabanından Yönetici Telefonunu Eşleşip Telefona SMS İle Şifre Gönderir. Brute Force Saldırısına Karşın Sürekli Gönderildi Bilgisi Verir.
+           +kisiselbilgiler.php
+                -Yöneticilerin Bilgilerini Düzenlediği Panel.
+
+        //Düzeltmeler
+           +ust.php(Yönetici)
+                -Topluluk İçin Menü Tanımlandı.
+                -Artık Ayarlar Kısmına Sadece SuperUser Erişim Sağlayabilir
+                -Yöneticiler Telefon Numarası Eklemeden Sistemi Kullandırmayan Yönlendirme Eklendi
+           +toplulukakis.php
+                -Hatalı Değişken Silindi.
+
+
+   --Veritabanı
+        //Mevcut Veritabanından Güncellenenler
+           +yonetici
+                -Topluluk İçin Yönetici Hakları Tanımlandı.
+                -Cep Telefonu Sütunu Eklendi.
+
 Versiyon 3.1
 
    --Sayfalar
@@ -48,7 +76,6 @@ Versiyon 3.1
                 -Veritabanına Log Bilgisi Ekleme.
            +baglan.php
                 -Veritabanı Şifresi Local veya Public Duruma Göre Otomatik Değişmekte.
-           
 
    --Veritabanı
         //Veritabanına Eklenenler
