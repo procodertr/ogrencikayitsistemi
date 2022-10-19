@@ -1,3 +1,52 @@
+Versiyon 3.3
+
+   --Özellikler
+       +Debug Modu Eklendi. Yazılım Hatalarını göstermek için Debug Mod açılacak.(19.10.2022)
+       +Süresi Geçmiş ama Onaylanmamış Gezilerin Anasayfaya Uyarısı Eklendi.(19.10.2022)
+       +Süresi Geçmiş ama Onaylanmamış Kursların Anasayfaya Uyarısı Eklendi.(19.10.2022)
+
+
+   --Sayfalar
+        //Eklenenler
+            +onaysizgezi.php
+                -Süresi Geçmiş ama Onaylanmamış Gezilerin Anasayfaya Uyarısı.(19.10.2022)
+            +onaysizkurs.php
+                -Süresi Geçmiş ama Onaylanmamış Kursların Anasayfaya Uyarısı.(19.10.2022)
+
+        //Düzeltmeler
+           +ust.php
+                -Debug Modu Eklendi.(19.10.2022)
+           +kontrol.php
+                -Debug Modu Eklendi.(19.10.2022)
+           +admin/ust.php
+                -Debug Modu Eklendi.
+                -Update Iconu Değiştirildi.(19.10.2022)
+                -1 Satır Boşluk Bırakıldı.(19.10.2022)
+           +admin/kontrol.php
+                -Debug Modu Eklendi.(19.10.2022)
+                -Son Giriş Tarihi Kayıtdını Tutması İçin Kod Eklendi.(19.10.2022)
+           +admin/alt.php
+                -Footera Sistem Adı Eklendi.(19.10.2022)
+           +admin/ayarlar.php
+                -Debug Modunu Açma Kapama Menüsü Eklendi(19.10.2022)
+           +admin/modul/superuser.php
+                -Onaysız Gezi Uyarı Paneli Eklendi.(19.10.2022)
+                -Onaysız Kurs Uyarı Paneli Eklendi.(19.10.2022)
+           +admin/ogrencihareketleri.php
+                -Hatalı Bilgiler Düzeltildi.(19.10.2022)
+
+
+   --Veritabanı
+        //Veritabanına Eklenenler
+
+
+        //Mevcut Veritabanından Güncellenenler
+            +yonetici
+                -Sisteme Son Giriş Tarihleri Sütünu Eklendi.(19.10.2022)
+
+
+
+
 Versiyon 3.2
 
    --Sayfalar
@@ -15,12 +64,14 @@ Versiyon 3.2
            +ust.php(Yönetici)
                 -Topluluk İçin Menü Tanımlandı.
                 -Artık Ayarlar Kısmına Sadece SuperUser Erişim Sağlayabilir
-                -Yöneticiler Telefon Numarası Eklemeden Sistemi Kullandırmayan Yönlendirme Eklendi
            +toplulukakis.php
                 -Hatalı Değişken Silindi.
 
 
    --Veritabanı
+        //Veritabanına Eklenenler
+
+
         //Mevcut Veritabanından Güncellenenler
            +yonetici
                 -Topluluk İçin Yönetici Hakları Tanımlandı.
