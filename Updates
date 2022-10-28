@@ -1,16 +1,70 @@
+Versiyon 3.4
+
+   --Özellikler
+        +Randevularda İptal Edildiği Zaman Artık Öğrenciye İptal Nedeni SMS ile Gönderilecek.(24.10.2022)
+        +Session Bitip Çıkış Yapınca Login İşleminden Sonra Tekrar Kaldığı Sayfadan Devam Edecek.(24.10.2022)
+        +Kişisel Bilgilere Cinsiyet Eklendi.(28.10.2022)
+        +Kayıt Alınırken Cinsiyete Özel, Yabancı Öğrencilere Özel Gibi Varyasyonlar İçin Altyapı Eklendi. Sonraki Güncellemede Kullanabilecek.(28.10.2022)
+
+
+   --Sayfalar
+        //Eklenenler
+            +admin/index.php
+                -Dinamik Giriş Olabilmesi İçin index.html Yerine Php Versiyonu Eklendi. Url Değişkeni Eklendi.(24.10.2022)
+
+        //Düzeltmeler
+            +kurslar.php
+                -Yazım Hataları Giderildi.(24.10.2022)
+                -Cinsiyet Eklenmediyse Hata Vermesi İçin Cinsiyet Kontrolü Yapacak.(28.10.2022)
+            +anasayfa.php
+                -Cinsiyet Eklenmediyse Hata Vermesi İçin Cinsiyet Kontrolü Yapacak.(28.10.2022)
+            +randevular.php
+                -Cinsiyet Eklenmediyse Hata Vermesi İçin Cinsiyet Kontrolü Yapacak.(28.10.2022)
+            +bilgilerim.php
+                -Cinsiyet Seçme Paneli Eklendi.(28.10.2022)
+            +kurskayityap.php
+                -Sosyal Medya Adresleri Güncellendi.(24.10.2022)
+            +kayityap.php
+                -Sosyal Medya Adresleri Güncellendi.(24.10.2022)
+            +admin/randevu.php
+                -Randevularda İptal Edildiği Zaman Artık Öğrenciye İptal Nedeni SMS ile Gönderilecek Kodlar Eklendi SMS Api Bağlandı.(24.10.2022)
+            +admin/ust.php
+                -Session Bittiğinde Kaldığın Sayfadan Devam Etmesi İçin Url Değişkeni İle index.php'ye Yönlendirmesi Eklendi.(24.10.2022)
+            +admin/kontrol.php
+                -Giriş Yaparken url Değişkenine Göre Sayfaya Yönlendirecek.(24.10.2022)
+            +admin/index.html - SİLİNDİ
+                -Dinamik Giriş İçin HTML Versiyonu Silindi.(24.10.2022)
+            +admin/kursonaylilistesiogrenciler.php
+                -Hes Kodu Değişkeni Doğum Tarihi ile değiştirildi.(27.10.2022)
+            +admin/onaylilistesiogrenciler.php
+                -Hes Kodu Değişkeni Doğum Tarihi ile değiştirildi.(27.10.2022)
+            +kontrol.php
+                -Giriş Yapaken Cinsiyeti Değişkene Atayacak.(28.10.2022)
+
+   --Veritabanı
+        //Veritabanına Eklenenler
+
+
+        //Mevcut Veritabanından Güncellenenler
+            +ogrenci
+                -Cinsiyet Sütünu Eklendi.(28.10.2022)
+
+
+
 Versiyon 3.3
 
    --Özellikler
        +Debug Modu Eklendi. Yazılım Hatalarını göstermek için Debug Mod açılacak.(19.10.2022)
        +Süresi Geçmiş ama Onaylanmamış Gezilerin Anasayfaya Uyarısı Eklendi.(19.10.2022)
        +Süresi Geçmiş ama Onaylanmamış Kursların Anasayfaya Uyarısı Eklendi.(19.10.2022)
+       +Yöneticilerin Son Giriş Tarihleri Eklendi.(19.10.2022)
 
 
    --Sayfalar
         //Eklenenler
-            +onaysizgezi.php
+            +admin/onaysizgezi.php
                 -Süresi Geçmiş ama Onaylanmamış Gezilerin Anasayfaya Uyarısı.(19.10.2022)
-            +onaysizkurs.php
+            +admin/onaysizkurs.php
                 -Süresi Geçmiş ama Onaylanmamış Kursların Anasayfaya Uyarısı.(19.10.2022)
 
         //Düzeltmeler
