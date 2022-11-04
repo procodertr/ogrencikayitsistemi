@@ -1,10 +1,73 @@
+Versiyon 3.5
+
+   --Özellikler
+        +Yemekhane Kullanım Anketi Eklendi.(04.11.2022)
+        +Öğrenci Evleri Kullanım Anketi Eklendi.(04.11.2022)
+
+
+   --Sayfalar
+        //Eklenenler
+            +yemekhanekullanimanket.php
+                -Yemekhane Kullanım Anketi .(02.11.2022)
+            +yurtkullanimanket.php
+                -Öğrenci Evi Kullanım Anketi.(02.11.2022)
+            +admin/yemekhanekullanananketsonuc.php
+                -Yemekhane Kullanım Anketi Sonuçlarını Gösterecek.(04.11.2022)
+            +admin/yurtkalananketsonuc.php
+                -Öğrenci Evi Kullanım Anketi Sonuçlarını Gösterecek.(04.11.2022)
+
+
+
+        //Düzeltmeler
+            +ayarlar/baglan.php
+                -İşletim Sistemine Göre Mysql Şifresini Ayarlayacak.(02.11.2022)
+            +bilgilerim.php
+                -Telefon Numaralarının Standart Kaydı İçin TextBox Maskelendi.(02.11.2022)
+            +alt.php
+                -Textbox Maskelemek için js kodları eklendi.(02.11.2022)
+            +anasayfa.php
+                -Yemekhane kullanım anketi kodlara eklendi.(02.11.2022)
+                -Öğrenci kullanım Evi anketi kodlara eklendi.(04.11.2022)
+            +kurslar.php
+                -Yemekhane kullanım anketi kodlara eklendi.(02.11.2022)
+                -Öğrenci kullanım Evi anketi kodlara eklendi.(04.11.2022)
+            +randevular.php
+                -Yemekhane kullanım anketi kodlara eklendi.(02.11.2022)
+                -Öğrenci kullanım Evi anketi kodlara eklendi.(04.11.2022)
+            +cikis.php
+                -Anasayfa Yönlendirmesindeki hata giderildi.(02.11.2022)
+            +moduller/topluluk/admin.php
+                -Telaffuz Düzeltmeleri Yapıldı.(04.11.2022)
+                -Görünüm Düzenlemeleri.(04.11.2022)
+            +moduller/topluluk/ykuyesi.php
+                -Telaffuz Düzeltmeleri Yapıldı.(04.11.2022)
+                -Görünüm Düzenlemeleri.(04.11.2022)
+            +toplulukogrenciekle.php
+                -Mobil Görünüm Değişti.(04.11.2022)
+            +toplulukogrenciekle.php
+                -Üye Ekleme Sayısı 5 Çıkarıldı.(04.11.2022)
+            +admin/anketsonuc.php
+                -Yemekhane ve Öğrenci Evleri Kullanım Anket Sonuçları Listelendi.(04.11.2022)
+
+   --Veritabanı
+        //Veritabanına Eklenenler
+            +yemekhanekullanimanket
+                -Yemekhane Kullanan Öğrencilerin Sayısını Hesaplama.(02.11.2022)
+            +yurtkullanimanket
+                -Öğrenci Evlerini Kullanan Öğrencilerin Sayısını Hesaplama.(02.11.2022)
+
+
+        //Mevcut Veritabanından Güncellenenler
+
+
+
+
 Versiyon 3.4
 
    --Özellikler
         +Randevularda İptal Edildiği Zaman Artık Öğrenciye İptal Nedeni SMS ile Gönderilecek.(24.10.2022)
         +Session Bitip Çıkış Yapınca Login İşleminden Sonra Tekrar Kaldığı Sayfadan Devam Edecek.(24.10.2022)
         +Kişisel Bilgilere Cinsiyet Eklendi.(28.10.2022)
-        +Kayıt Alınırken Cinsiyete Özel, Yabancı Öğrencilere Özel Gibi Varyasyonlar İçin Altyapı Eklendi. Sonraki Güncellemede Kullanabilecek.(28.10.2022)
 
 
    --Sayfalar
