@@ -1,6 +1,43 @@
+Versiyon 3.6
+
+   --Özellikler
+        +Şifre İle Giriş Eklendi.(07.11.2022)
+        +Topluluk Modülü Hatalar Giderildi.(07.11.2022)
+
+   --Sayfalar
+        //Eklenenler
+
+        //Düzeltmeler
+            +index.html
+                -T.C. numarası silindi. Şifre Eklendi.(07.11.2022)
+            +kontrol.php
+                -T.C. numarası Kontrolü Silindi. Şifre Kontrolü Getirildi.(07.11.2022)
+            +admin/hataligirisler.php
+                -T.C. numarası kaydı silindi. Şifre kaydı getirildi.(07.11.2022)
+            +ust.php
+                -Şifre ile Öğrenci Numarası Eşitse Şifre Değiştirmeye Zorla.(07.11.2022)
+            +topluluk.php
+                -Tüm Üye Topluluk Sayfaları Eklendi.Görünmemezlik Kaldırıldı.(07.11.2022)
+            +moduller/topluluk/admin.php
+                -Öğrenci Üye Belgesi Tüm Toplulukların Belgesini Çıkarması Engellendi. Sadece İstenilen Topluluk Belgesi Çıkaracak.(07.11.2022)
+            +moduller/topluluk/uye.php
+                -Öğrenci Üye Belgesi Tüm Toplulukların Belgesini Çıkarması Engellendi. Sadece İstenilen Topluluk Belgesi Çıkaracak.(07.11.2022)
+            +moduller/topluluk/ykuye.php
+                -Öğrenci Üye Belgesi Tüm Toplulukların Belgesini Çıkarması Engellendi. Sadece İstenilen Topluluk Belgesi Çıkaracak.(07.11.2022)
+
+   --Veritabanı
+        //Veritabanına Eklenenler
+
+        //Mevcut Veritabanından Güncellenenler
+            +ogrenci
+                -Şifre Sütunu Eklendi.(07.11.2022)
+
+
+
 Versiyon 3.5
 
    --Özellikler
+        +Anket Altyapısı Hazırlandı.(04.11.2022)
         +Yemekhane Kullanım Anketi Eklendi.(04.11.2022)
         +Öğrenci Evleri Kullanım Anketi Eklendi.(04.11.2022)
 
