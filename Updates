@@ -1,3 +1,32 @@
+Versiyon 3.7
+
+   --Özellikler
+        +Psikolojik Danışmalık - 2 Eklendi.(10.11.2022)
+        +Randevular Açılmadan Önce Geri Sayım Olacak.(10.11.2022)
+        +Randevular Menüsü Yeni Tasarım Hazırlandı.(11.11.2022)
+        +Randevu Alan Öğrenciler Aldıkları Randevuları 'Randevularım' Menüsü Altında Görecek.(11.11.2022)
+
+   --Sayfalar
+        //Eklenenler
+
+        //Düzeltmeler
+            +modul/randevular.html
+                -Psikolojik Danışmalık - 2 için Yeni Sütün Eklendi.(10.11.2022)
+                -Randevular Menüsü Yeni Tasarım Hazırlandı.(11.11.2022)
+                -Randevu Alan Öğrenciler Aldıkları Randevuları 'Randevularım' Menüsü Altında Görecek.(11.11.2022)
+            +admin/randevuayarla.php
+                -Psikolojik Danışmalık - 2 için Yeni Ayarlama Sütünü Eklendi.(10.11.2022)
+                --Randevu Kayıt Başlama Tarihi Seçim Sütünu Eklendi.(10.11.2022)
+
+   --Veritabanı
+        //Veritabanına Eklenenler
+            +randevuayarlar
+                -Randevu Kayıt Başlama Tarihi İçin Kullanılacak.(10.11.2022)
+
+        //Mevcut Veritabanından Güncellenenler
+
+
+
 Versiyon 3.6
 
    --Özellikler
