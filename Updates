@@ -1,3 +1,21 @@
+Versiyon 3.7 Fix 1
+
+   --Özellikler
+        +Topluluk Sayfası Tasarımı Değişti.(15.11.2022)
+        +Topluluklara Toplu Üye Ekleme Eklendi.(15.11.2022)
+
+   --Sayfalar
+        //Eklenenler
+
+        //Düzeltmeler
+            +topluluklar.html
+                -Sayfa Tasarımı Değişti.(15.11.2022)
+                -Yönetici Haklarındaki Hata Giderildi.(15.11.2022)
+            +toplulukogrenciekle.php
+                -Toplu Öğrenci Eklenmesi İçin Select Modulunu Multiple Yapıldı.(15.11.2022)
+            +toplulukuyelistesi.php
+                -Üye Ekle Sayfasından Gelen Öğrenci Dizesini Döngü İle Eklenmesi Sağlandı.(15.11.2022)
+
 Versiyon 3.7
 
    --Özellikler
