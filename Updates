@@ -1,3 +1,55 @@
+Versiyon 3.8
+
+   --Özellikler
+        +Şifre Sıfırlama Eklendi.(20.12.2022)
+        +Öncelikli Randevu Hakkı Eklendi.(10.03.2023)
+        +Yazım Hataları Giderildi.(10.03.2023)
+
+   --Sayfalar
+        //Eklenenler
+            +sifremiunuttum.html
+                -Şifre Sıfırlama Sayfası.(20.12.2022)
+            +resetpw.php
+                -Şifre Sıfırlama İçin Gelen Postdatayı İşleyen Sayfa.(20.12.2022)
+            +admin/onceliklirandevulistesi.php
+                -Öncelikle Randevu Hakkı İçin Öğrenci Ekleme Paneli Düzenlendi.(10.03.2023)
+            +admin/menu/superuser.php
+                -Öncelikle Randevu Hakkı Üst Menüye Eklendi.(10.03.2023)
+
+        //Düzeltmeler
+
+            +index.html
+                -Şifre Sıfırla butonu eklendi.(20.12.2022)
+            +moduller/randevular.php
+                -Öncelikli Kayıt Hakkı Düzenlemesi Yapıldı.(10.03.2023)
+                -Birim İsmindeki Hatalar Giderildi.(10.03.2023)
+            +moduller/kayitislemleri.php
+                -Öncelikli Randevu Kullanım Logu Eklendi.(10.03.2023)
+                -Öncelikli Randevu Kullandıktan Sonra Hakkı Silinme İşlemleri Eklendi.(10.03.2023)
+            +admin/randevuayarla.php
+                -Randevu Sıfırlama Sistemindeki 6. Birim Hatası Düzeltidi.(10.03.2023)
+            +admin/yasaklilistesi.php
+                -Yazım Hatası Düzeltildi.(10.03.2023)
+
+
+   -Veritabanı
+        //Eklenenler
+            +onceliklirandevu
+                -Öncelikli Randevu Veritabanı Oluşturuldu.(10.03.2023)
+
+
+Versiyon 3.7 Fix 2
+
+   --Özellikler
+        +Randevu Alınırken Oluşan Mukerrer Kayıtlar Engellendi.(17.11.2022)
+
+   --Sayfalar
+        //Eklenenler
+
+        //Düzeltmeler
+            +moduller/kayitislemleri.php
+                -Her Kayıtta Veritabanı Kontrol Edilerek Mukerrer Kayıt Engellendi.(17.11.2022)
+
 Versiyon 3.7 Fix 1
 
    --Özellikler
