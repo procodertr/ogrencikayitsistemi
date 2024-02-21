@@ -1,7 +1,66 @@
+Versiyon 4
+
+   --Özellikler
+        +Yurtlara Misafir Sistemi Ekledi.(21.02.2024)
+        +Burs Sistemi Tekrar Yazıldı.(05.01.2024)
+
+
+   --Veritabanı
+        //Eklenenler
+            +yurtkayitli_misafir(21.02.2024)
+                -Misafir Sistemi Veritabanı
+
+        //Düzeltmeler
+
+Versiyon 4.0b
+
+   --Özellikler
+         +Yurt Sistemi Eklendi.(01.09.2023)
+
+
+
 Versiyon 3.8
 
    --Özellikler
-        +Şifre Sıfırlama Eklendi.(20.12.2022)
+
+
+   --Sayfalar
+        //Eklenenler
+
+
+
+        //Düzeltmeler
+            +ayarlar/baglan.php
+                -Eski Yurt Veritabanı Bağlantısı Kaldırıldı.(15.08.2023)
+            +modul/yurtkayit.php
+                -Yurt Kayıt Yılını Artık Veritabanından Çekecek.(15.08.2023)
+                -Çalışan Kardeş Verisi Gelmiyordu Düzeltildi.(16.08.2023)
+            +modul/yenikayityurt.php
+                -Sayfa Düzeni Değiştirildi.(16.08.2023)
+                -Puanlama ve İçerik Güncellendi.(16.08.2023)
+            +modul/arasinifyurt.php
+                -Sayfa Düzeni Değiştirildi.(16.08.2023)
+                -Puanlama ve İçerik Güncellendi.(16.08.2023)
+
+
+   --Veritabanı
+        //Eklenenler
+            +ayarlar
+                -Yurt Kayıt Yılı Eklendi.(15.08.2023)
+            +yurtkayitlar
+                -Yurt Başvuruları Yeni Sisteme Taşındı.(16.08.2023)
+            +yurtozelbasvuru
+                -Özel Yurt Başvuruları Düzenleyecek Öğrenciler Yeni Sisteme Taşındı.(16.08.2023)
+
+        //Düzeltmeler
+
+
+
+
+Versiyon 3.8
+
+   --Özellikler
+        +Şifre Sıfırlama Eklendi(20.12.2022)
         +Öncelikli Randevu Hakkı Eklendi.(10.03.2023)
         +Yazım Hataları Giderildi.(10.03.2023)
 
